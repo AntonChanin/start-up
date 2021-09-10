@@ -1,0 +1,61 @@
+.baner-canvas {
+  background: linear-gradient(180.18deg, rgba(0, 26, 51, 0) 66.21%, rgba(0, 26, 51, 0.8) 99.84%), linear-gradient(0deg, rgba(0, 27, 52, 0.6), rgba(0, 27, 52, 0.6));
+  background-repeat: no-repeat;
+  background-image: url('../../assets/traneWay.png');
+  color: #fff;
+  width: 1600px;
+  height: 488px;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner-canvas h3 {  
+  width: 846.93px;
+  height: 110px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  /* Цвет / белый */
+  color: #FFFFFF;
+
+  transform: rotate(0deg);
+  
+  margin: 0;
+}
+
+.baner-canvas h5 {
+  width: 585px;
+  height: 56px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 156.46%;
+
+  /* or 28px */
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin: 0;
+}
+
+.form-container {
+  max-width: 1600px;
+  width: 100%;
+
+  position: absolute;
+  left: 200px;
+  top: 411px;
+}

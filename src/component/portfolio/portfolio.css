@@ -1,0 +1,36 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.case-img {
+  width: 408px;
+  height: 540px;
+  left: 273px;
+  top: 1354px;
+
+  background: url('../../assets/case.png');
+}
+
+.case-desc {
+  color: #fff;
+  width: 647px;
+  height: 445px;
+
+  /* Цвет/основной */
+  background: #4169C1;
+}
+
+.portfolio-button button {
+  width: 410px;
+  height: 70px;
+  border-radius: 37.5px;
+}

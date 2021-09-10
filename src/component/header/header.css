@@ -1,0 +1,97 @@
+header, nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 90px;
+}
+
+nav {
+  max-width: 549px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: 0;
+  color: #000;
+}
+
+.logotype {
+  display: flex;
+  flex-wrap: wrap;
+  width: 218.67px;
+  height: 45.05px;
+}
+
+.head-title {
+  text-align: left;
+}
+
+.logotype .head-title b {
+  margin-left: 7.82px;
+  width: 95px;
+  height: 23px;
+
+  font-family: Play;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #0E0E0E;
+}
+
+.logotype .head-title .subtitle {
+  margin-left: 8.15px;
+
+  width: 162px;
+  height: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+
+  /* identical to box height */
+  letter-spacing: 0.015em;
+
+  color: rgba(14, 14, 14, 0.61);
+}
+
+.logotype .logo {
+  width: 48.52px;
+  height: 45.05px;
+  background-image: url('../../assets/logo.png');
+}
+
+.phone {
+  width: 32px;
+  height: 32px;
+  background-image: url('../../assets/phoneCall.png');
+}
+
+.call-phone {
+  display: flex;
+  align-items: center;
+}
+
+.call-phone h3 {  
+  width: 181px;
+  height: 28px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+
+  /* identical to box height */
+
+  color: #0B0B0B;
+}

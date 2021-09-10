@@ -1,0 +1,72 @@
+.free-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-image: url('../../assets/formFree.png');
+  max-width: 1221px;
+  height: 221px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.free-form h5 {
+  width: 516px;
+  height: 28px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+
+  /* identical to box height */
+
+  color: #001A33;
+
+  margin: 0;
+}
+
+.free-form h5 a {
+  color: #4169C1;
+  text-decoration: 0;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 789px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  width: 235px;
+  height: 45px;
+
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#form-free_input-2 {
+  width: 278px;
+}
+
+.free-form  button {
+  width: 235px;
+  height: 50px;
+}
