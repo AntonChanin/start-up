@@ -2,6 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F4F8FF;
+}
+
+.portfolio h3 {
+  max-width: 1199.98px;
+  width: 100%;
+  height: 44px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+
+  /* identical to box height */
+  text-align: center;
 }
 
 .case {
@@ -29,8 +45,112 @@
   background: #4169C1;
 }
 
+.case-desc h4 {
+  width: 172px;
+  height: 28px;
+  left: 713px;
+  top: 1431px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: initial;
+  margin: 40px auto 0 33px;
+}
+
+.case-desc .subtitle {
+  width: 481px;
+  height: 50px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 156.46%;
+  text-align: initial;
+  margin: 9px auto 29px 33px;
+  opacity: 0.7;
+
+  /* or 25px */
+}
+
+.case-desc h5 {
+  width: 202px;
+  height: 23px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: initial;
+  margin: 29px auto 17px 33px;
+}
+
+.case-desc ul {
+  display: flex;
+  flex-direction: row;
+  float: inline-end;
+  width: 100%;
+  margin: 0;
+}
+
+#row-0 {
+  margin: 0 57px 22px 59px;
+}
+
+.li-col {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.li-col li {
+  margin: 0 0 17px 0;
+}
+
 .portfolio-button button {
   width: 410px;
   height: 70px;
   border-radius: 37.5px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto 33px;
+  text-align: center;
+  align-items: center;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.portfolio-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+}
+
+.left-arrow {
+  width: 29px;
+  height: 61px;
+  margin: 0 48px;
+  background: url('../../assets/arrow.png');
+}
+
+.right-arrow {
+  width: 29px;
+  height: 61px;
+  margin: 0 48px;
+  background: url('../../assets/arrow.png');
+  transform: rotate(180deg);
 }

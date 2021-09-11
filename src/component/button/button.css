@@ -4,4 +4,12 @@ button {
   border: 0;
   outline: 0;
   color: #fff;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.04em;
 }

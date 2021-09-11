@@ -1,0 +1,104 @@
+.about-canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F8FF;
+  height: 908px;
+  max-width: 1600px;
+  width: 100%;
+}
+
+.about-canvas h3 {
+  width: 335px;
+  height: 44px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: start;
+
+  margin: 81px auto 49.99px 200px;
+
+  /* identical to box height */
+
+  color: #001A33;
+}
+
+.about-body {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+
+.about-body .about-desc {
+  max-width: 585px;
+  width: 100%;
+  height: 588px;
+  background-color: #4169C1;
+}
+
+.about-body .about-desc .about-content {
+  margin: 0 73px;
+}
+
+.about-body .about-desc h4 {
+  width: 297px;
+  height: 28px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: initial;
+}
+
+.about-body .about-desc .about-content article {
+  width: 441px;
+  height: 193px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 156.46%;
+  text-align: initial;
+
+  opacity: 0.7;
+}
+
+.about-body .about-desc .img-backway {
+  width: 585px;
+  height: 330px;
+  background-image: url('../../assets/backway.png');
+  mix-blend-mode: screen;
+  position: absolute;
+  z-index: 1;
+}
+
+.about-body .about-desc .about-content .docs {
+  display: flex;
+}
+
+.docs .img-doc-first {
+  width: 132px;
+  height: 185px;
+  background-image: url('../../assets/doc-1.png');
+  margin: 0 23px 0 0;
+}
+
+.docs .img-doc-second {
+  width: 132px;
+  height: 185px;
+  background-image: url('../../assets/doc-2.png');
+}
+
+.about-body .img-farway {
+  width: 615px;
+  height: 441px;
+  background-image: url('../../assets/farway.png');
+}
+
