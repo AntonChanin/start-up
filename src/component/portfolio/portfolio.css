@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
   background-color: #F4F8FF;
+  max-width: 1600px;
+  width: 100%;
+  height: 744px;
 }
 
 .portfolio h3 {
@@ -46,7 +49,6 @@
 }
 
 .case-desc h4 {
-  width: 172px;
   height: 28px;
   left: 713px;
   top: 1431px;

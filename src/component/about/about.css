@@ -58,7 +58,6 @@
 
 .about-body .about-desc .about-content article {
   width: 441px;
-  height: 193px;
 
   font-family: Geometria;
   font-style: normal;
@@ -68,6 +67,7 @@
   text-align: initial;
 
   opacity: 0.7;
+  margin: 0 0 15px 0;
 }
 
 .about-body .about-desc .img-backway {

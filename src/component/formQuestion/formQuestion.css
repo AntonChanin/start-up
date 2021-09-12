@@ -11,6 +11,17 @@
   right: 42px;
 }
 
+.form-question-canvas H5 {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: initial;
+  /* identical to box height */
+  margin: 41px auto 21px 76px;
+}
+
 .form-question-canvas button {
   width: 278px;
   height: 50px;
@@ -53,6 +64,86 @@
   text-align: initial;
 }
 
+.form-question-body .form-question-fields .form-question-field label {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+
+  color: #101010;
+
+  margin: 10px 0 0 0;
+}
+
+.form-question-body .form-question-fields .form-question-field input {
+  width: 278px;
+  height: 45px;
+
+  background-color: #EEF2F9;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-question-body .form-question-fields .form-question-field_checkbox label {
+  width: 219px;
+  height: 30px;
+
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #10101066;
+  margin: 23px 0 0 0;
+}
+
+.form-question-body .form-question-fields .form-question-field_checkbox label a {
+  color: #101010;
+  text-decoration: underline;
+}
+
 .form-question-body .form-question-fields .form-question-field_checkbox input {
   width: auto;
+}
+
+.form-question-body .form-question-message {
+  margin: 0 0 0 29px;
+}
+
+.form-question-body .form-question-message label {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: initial;
+
+  /* identical to box height */
+
+  color: #001A33;
+}
+
+.form-question-body .form-question-message textarea {
+  width: 278px;
+  height: 195px;
+
+  background: #EEF2F9;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height */
+
+  color: rgba(16, 16, 16, 0.4);
+
+  margin: 0 0 22px 0;
 }
