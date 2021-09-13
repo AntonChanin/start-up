@@ -111,3 +111,27 @@
     margin: 0 calc(12% - 15px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .form-free-canvas {
+    max-width: 320px;
+    background-size: 100% 100%;
+    margin: 35px 0 0 0;
+  }
+
+  .form-free-canvas h5 {
+    width: 238px;
+    height: 75px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .form-free-body {
+    max-width: 240px;
+    margin: 0 calc(17% - 15px);
+  }
+}

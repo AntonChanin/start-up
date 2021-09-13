@@ -35,6 +35,10 @@
   margin: 109px 0 6.93px 0;
 }
 
+.baner-canvas h3#mobile {
+  display: none;
+}
+
 .baner-canvas h5 {
   width: 585px;
   height: 56px;
@@ -88,5 +92,46 @@
 
   .form-container {
     top: 444px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .baner-canvas {
+    max-width: 320px;
+    height: 757px;
+  }
+
+  .baner-canvas h3#laptop {
+    display: none;
+  }
+
+  .baner-canvas h3#mobile {
+    display: block;
+    width: 299.27px;
+    height: 152px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    /* Цвет / белый */
+  }
+
+  .baner-canvas h5 {
+    width: 300px;
+    height: 100px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.46%;
+
+    /* or 25px */
+    text-align: center;
   }
 }

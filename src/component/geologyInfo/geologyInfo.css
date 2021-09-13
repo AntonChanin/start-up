@@ -108,3 +108,22 @@
     margin: 0;
   }
 }
+
+
+@media screen and (max-width: 320px) {
+  .geo-body h3 {
+    width: 222px;
+    height: 33px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    color: #001A33;
+    margin: 169px 0 18.98px 12px;
+  }
+}

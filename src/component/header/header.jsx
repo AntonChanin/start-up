@@ -7,8 +7,8 @@ const Header = () => {
         <div className="logotype">
           <div className="logo" />
           <div className="head-title">
-            <b>Название</b>{/*Путьремстрой */}
-            <div className="subtitle" >И какой нибудь лозунг</div>{/*Новые пути - новые горизонты*/}
+            <b>Путьремстрой</b>
+            <div className="subtitle" >Новые пути - новые горизонты</div>{/*Или В добрый путь с Путьремстрой*/}
           </div>
         </div>
         <nav>
