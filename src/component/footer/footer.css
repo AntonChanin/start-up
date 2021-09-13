@@ -2,7 +2,7 @@
   background-color: #001A33;
   color: #fff;
   max-width: 1600px;
-  width: 100%;
+  padding: 0 calc(50% - 800px);
   height: 93px;
 }
 
@@ -54,4 +54,26 @@
   /* or 18px */
   text-align: center;
   text-decoration-line: underline;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-canvas {
+    max-width: 700px;
+    height: 180px;
+  }
+  .footer-body {
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-evenly;
+    margin: 0 0 0 40px;
+    padding: initial;
+  }
+
+  .footer-body .footer-dev .img-dev {
+    margin: 0 8px 0 0;
+  }
+
+  .footer-body .footer-dev  a {
+    width: 151px;
+  }
 }

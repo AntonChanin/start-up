@@ -1,15 +1,33 @@
 .benefits-canvas {
   max-width: 1600px;
+  padding: 0 calc(50% - 600px);
   height: 467px;
 }
 
-.benefits-canvas h3 {
+.benefits-canvas h3 {  
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: initial;
+
+  /* identical to box height */
+
+  color: #001A33;
+
   margin: 79px 0 13.96px 0;
 }
 
 .benefits-body {
   display: flex;
   flex-wrap: wrap;
+}
+
+.benefit-twice {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .benefit {
@@ -79,4 +97,34 @@
 
 .qua {
   background-image: url('../../assets/qua.png');
+}
+
+@media screen and (max-width: 700px) {
+  .benefits-canvas {
+    max-width: 700px;
+    height: 1024px;
+  }
+
+  .benefits-canvas h3 {
+    font-size: 30px;
+    margin: 70px 0 43.96px 42px
+  }
+
+  .benefits-body {
+    max-width: 595px;
+    height: 853px;
+    margin: 0 calc(50% - 308px);
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .benefit-twice {
+    flex-direction: inherit;
+    width: 100%;
+  }
+
+  .benefit {
+    max-width: 277px;
+    flex-direction: column;
+  }
 }

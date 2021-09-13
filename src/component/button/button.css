@@ -1,8 +1,12 @@
 button {
-  background: #FD6612;
-  border-radius: 23.5px;
   border: 0;
   outline: 0;
+  background-color: #fff0
+}
+
+.btn {
+  background-color: #FD6612;
+  border-radius: 23.5px;
   color: #fff;
 
   font-family: Geometria;

@@ -3,8 +3,8 @@ import './geologyInfo.css'
 const GeologyInfo = () => {
   return (
     <>
-      <div className="geo" >
-        <div className="geo-info">
+      <div className="geo-canvas" id="geo" >
+        <div className="geo-body">
           <h3>География работ</h3>
           <h5>ООО «Путьремстрой» реализует проекты на всей территории Российской Федерации.</h5>
           <article>

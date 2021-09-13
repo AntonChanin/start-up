@@ -19,7 +19,7 @@ const FormQuestion = () => {
               </div>
             )
           )}
-          <div className="form-question-field_checkbox">
+          <div id="laptop" className="form-question-field_checkbox">
             <input type="checkbox" />
             <label>
               Даю свое согласие
@@ -31,6 +31,13 @@ const FormQuestion = () => {
           <label>Комментарий</label>
           <textarea placeholder="Напишите ваш вопрос..." />
           <Button>ОТПРАВИТЬ</Button>
+          <div id="mobile" className="form-question-field_checkbox">
+            <input type="checkbox" />
+            <label>
+              Даю свое согласие
+              с <a>политикой конфиденциальности</a>
+            </label>
+          </div>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
   background-color: #F4F8FF;
   height: 908px;
   max-width: 1600px;
-  width: 100%;
+  padding: 0 calc(50% - 800px);
 }
 
 .about-canvas h3 {
@@ -74,6 +74,9 @@
   width: 585px;
   height: 330px;
   background-image: url('../../assets/backway.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
   mix-blend-mode: screen;
   position: absolute;
   z-index: 1;
@@ -87,6 +90,9 @@
   width: 132px;
   height: 185px;
   background-image: url('../../assets/doc-1.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
   margin: 0 23px 0 0;
 }
 
@@ -94,11 +100,48 @@
   width: 132px;
   height: 185px;
   background-image: url('../../assets/doc-2.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
 }
 
 .about-body .img-farway {
   width: 615px;
   height: 441px;
   background-image: url('../../assets/farway.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
+@media screen and (max-width: 700px) {
+  .about-canvas h3 {
+    margin: 70px auto 26.97px 40px; /*/466.97px*/ 
+  }
+
+  .about-body {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-body .about-desc {
+    position: absolute;
+    max-width: 620px;
+    margin: 0 0 292px 0;
+    z-index: 1;
+  }
+
+  .about-body .img-farway {
+    width: 100%;
+    margin: 440px 0 0 0;
+  }
+
+  .about-body .about-desc .img-backway {
+    width: 620px;
+    height: 330px;
+    background-size: 100%;
+    position: absolute;
+    z-index: 1;
+    margin: -68px 0 0 -73px;
+  }
+}

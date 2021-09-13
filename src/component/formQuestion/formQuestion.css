@@ -127,8 +127,9 @@
 }
 
 .form-question-body .form-question-message textarea {
-  width: 278px;
+  max-width: 278px;
   height: 195px;
+  resize: none;
 
   background: #EEF2F9;
   border: 1px solid #E7ECF3;
@@ -147,3 +148,61 @@
 
   margin: 0 0 22px 0;
 }
+
+@media screen and (max-width: 700px) {
+  .form-question-canvas {
+    width: 360px;
+    height: 592px;
+    top: 38px;
+    right: 19px;
+  }
+
+  .form-question-body {
+    flex-direction: column;
+    max-width: 278px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .form-question-body .form-question-message {
+    margin: 0;
+  }
+
+  .form-question-body .form-question-message textarea {
+    width: 278px;
+    height: 143px;
+  }
+
+  .form-question-canvas H5 {
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: initial;
+    margin: 30px 0 21px 40px;
+  }
+
+  #mobile.form-question-field_checkbox label {
+    width: 219px;
+    height: 30px;
+  
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #10101066;
+  }
+  
+   #mobile.form-question-field_checkbox label a {
+    color: #101010;
+    text-decoration: underline;
+  }
+
+  button {
+    margin: 0 0 12px 0;
+  }
+}
+  

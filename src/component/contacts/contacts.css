@@ -1,6 +1,6 @@
 .contacts-canvas {
   max-width: 1600px;
-  width: 100%;
+  padding: 0 calc(50% - 800px);
   height: 442px;
   background: #4169C1;
   color: #fff;
@@ -91,4 +91,21 @@
 
 .icons .icon-mail {
   background-image: url('../../assets/mail.png');
+}
+
+@media screen and (max-width: 700px) {
+  .contacts-canvas {
+    max-width: 700px;
+    padding: 0 calc(50% - 800px);
+    height: 505px;
+    margin: 184px 0 0 0;
+  }
+
+  .contacts-body {
+    margin: 0 40px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

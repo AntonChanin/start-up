@@ -1,7 +1,7 @@
 import './button.css'
 
 const Button = ({ children }) => (
-    <button>{`${children}`}</button>
+    <button className="btn">{`${children}`}</button>
 );
 
 export default Button;
