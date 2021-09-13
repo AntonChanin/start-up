@@ -219,7 +219,7 @@
   }
 
   .portfolio-body {
-    width: 620px;
+    max-width: 620px;
     display: flex;
     flex-direction: column;
   }
@@ -235,5 +235,68 @@
   .case-img {
     background-image: url('../../assets/case700.png');
     height: 340px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .portfolio-canvas  {
+    max-width: 320px;
+    height: 960px;
+  }
+
+  .portfolio-canvas h3 {
+    width: 297.58px;
+    height: 33px;
+    left: 12px;
+    top: 1677.02px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #001A33;
+  }
+
+  .case-img {
+    width: 298px;
+    height: 220px;
+  }
+
+  .case-desc {
+    width: 298px;
+    height: 500px;
+  }
+
+  .case-desc .list {
+    flex-direction: column
+  }
+
+  .case-desc-border {
+    margin: 30px 34.5px 83px 30px;
+  }
+
+  .case-desc h4 {
+    margin: 30px auto 0 0;
+  }
+
+  #row-0 {
+    margin: 0;
+  }
+
+  button {
+    width: 235px !important;
+    height: 70px !important;
+    margin: 29px 0 32px 0;
+  }
+
+  .arrows-group {
+    margin: 0 12px;
+    max-width: 298px;
   }
 }

@@ -128,3 +128,31 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .benefits-canvas {
+    max-width: 320px;
+    height: 1740px;
+  }
+
+  .benefits-body {
+    max-width: 100%;
+    height: 1582px;
+    margin: 0 calc(50% - 148px);
+  }
+
+  .benefits-canvas h3 {
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+
+    margin: 70px 45px 43.96px 12px;
+  }
+
+  .benefit-twice {
+    flex-direction: column;
+    height: 31%;
+  }
+}

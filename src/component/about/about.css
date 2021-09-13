@@ -145,3 +145,20 @@
     margin: -68px 0 0 -73px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .about-canvas {
+    max-width: 320px;
+    height: 925px;
+  }
+
+  .about-canvas h3 {
+    margin: 0 0 0 12px;
+    
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+  }
+}
