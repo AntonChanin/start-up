@@ -201,8 +201,25 @@
     text-decoration: underline;
   }
 
-  button {
+  .form-question-canvas button {
     margin: 0 0 12px 0;
   }
 }
   
+@media screen and (max-width: 320px) {
+  .form-question-canvas {
+    max-width: 320px;
+    position: initial;
+    margin-top: 405px;
+    margin-left: -267px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-question-body,
+  .form-question-body .form-question-fields .form-question-field input,
+  .form-question-body .form-question-message textarea,
+  .form-question-canvas button {
+    max-width: 240px;
+  }
+}

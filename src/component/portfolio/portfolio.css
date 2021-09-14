@@ -289,7 +289,7 @@
     margin: 0;
   }
 
-  button {
+  .portfolio-canvas button {
     width: 235px !important;
     height: 70px !important;
     margin: 29px 0 32px 0;

@@ -150,15 +150,71 @@
   .about-canvas {
     max-width: 320px;
     height: 925px;
+    padding: 0 9px 0 9px;
   }
 
   .about-canvas h3 {
-    margin: 0 0 0 12px;
+    margin: 62px auto 24.98px 0;
+    max-width: 320px;
+    width: 100%;
     
     font-family: Geometria;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 33px;
+  }
+
+  .about-body {
+    height: 739px;
+  }
+
+  .about-body .about-desc h4 {
+    max-width: 243px;
+    margin: 42px 0 12px 0;
+    height: auto;
+  }
+
+  .about-body .about-desc {
+    max-width: 298px;
+    margin: 0 0 80px 0;
+    height: 660px;
+  }
+
+  .about-body .about-desc .img-backway {
+    width: 298px;
+    background-size: 190%;
+  }
+
+  .about-body .about-desc .about-content {
+    margin: 0 28px 0 31px;
+  }
+
+  .about-body .about-desc .about-content article {
+    max-width: 243px;
+    margin: 0 0 32px 0;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.46%;
+  }
+
+  .about-body .about-desc .img-backway {
+    margin: -112px 0 0 -31px;
+  }
+
+  .docs .img-doc-first, .docs .img-doc-second {
+    width: 110px;
+    height: 155px;
+  }
+
+  .about-body .img-farway {
+    margin: 490px 0 0 0;
+    max-width: 320px;
+    width: 106%;
+    height: 250px;
+    background-size: 100% 100%;
   }
 }

@@ -109,3 +109,27 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .contacts-canvas {
+    height: 979px;
+    margin: 0;
+  }
+
+  .contacts-body {
+    margin: 0 9px;
+  }
+
+  .contacts-body h2 {
+    margin: 57px 0 27.99px 0;
+  }
+
+  .contacts-row {
+    width: 259px;
+  }
+
+  .contacts-body {
+    height: 405px;
+    justify-content: start;
+  }
+}
